@@ -1,0 +1,119 @@
+/* Estilo do site */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif ;
+    background: #fff url(../imagens/fundo.png) repeat-x ;
+}
+
+#container{
+    width: 90%;
+    margin: 0 auto;
+    background: url(../imagens/detalhe-topo.png) no-repeat right top;
+    /* border: 1px solid red; */
+}
+
+#cabecalho{
+    /* border: 1px solid red; */
+    height: 150px;
+
+}
+.logo{
+    width: 152px;
+    height: 66px;
+    padding: 10px;
+    background: url(../imagens/logo.png) no-repeat center;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   
+}
+
+#cabecalho ul{
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+    
+}
+
+#cabecalho ul li {
+    float: left;
+}
+
+#cabecalho ul li a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em; 
+    text-decoration: none;
+    color: #fff;
+    background: url(../imagens/divisor.png) no-repeat left center;
+}
+
+#cabecalho ul .primeiro a {
+    background: none;
+
+}
+
+#cabecalho ul a:hover {
+    color: #69001d;
+}
+    
+body.home #navegacao a#home,
+body.historia #navegacao a#historia,
+body.servicos #navegacao a#servicos,
+body.contato #navegacao a#contato,
+body.galeria #navegacao a#galeria
+
+{
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+} 
+
+#conteudo{
+       margin-top: 85px;
+       background: #f5f5f5;
+} 
+
+#primario {
+    width: 270px; 
+    float: left;
+    margin: 0 0 20px 195px;
+    background: blue;
+   
+}
+
+ #secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+    background: green;
+   
+}
+
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+    background: yellow;
+  
+}
+
+#cantainer-rodape{
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+
+}
