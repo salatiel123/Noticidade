@@ -17,6 +17,10 @@ body{
     /* border: 1px solid red; */
 }
 
+.center{
+    text-align: center;
+}
+
 #cabecalho{
     /* border: 1px solid red; */
     height: 150px;
@@ -119,6 +123,22 @@ body.galeria #navegacao a#galeria
     margin: 0 0 20px 15px;
     background: green;
    
+}
+
+div #conteudo figure{
+    background: #bfd7f1;
+    width: 50%;
+    padding: 5px 0 5px 0;
+    margin: auto;
+}
+div #conteudo figcaption{
+    background: #fff;
+    width: 50%;
+    padding: 0 0 5px 0;
+    margin: auto;
+    text-align: justify;
+
+    
 }
 
 #cantainer-rodape{
