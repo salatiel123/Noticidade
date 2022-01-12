@@ -1,49 +1,48 @@
 /* Estilo do site */
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-    font-family: "Trebuchet MS", Helvetica, sans-serif ;
-    background: #fff url(../imagens/fundo.png) repeat-x ;
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #fff url(../imagens/fundo.png) repeat-x;
 }
 
-#container{
+#container {
     width: 90%;
     margin: 0 auto;
     background: url(../imagens/detalhe-topo.png) no-repeat right top;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
-.center{
+.center {
     text-align: center;
 }
 
-#cabecalho{
+#cabecalho {
     /* border: 1px solid red; */
     height: 150px;
-
 }
-.logo{
+
+.logo {
     width: 152px;
     height: 66px;
     padding: 10px;
     background: url(../imagens/logo.png) no-repeat center;
 }
+
 ul {
     margin: 0;
     padding: 0;
     list-style: none;
-   
 }
 
-#cabecalho ul{
+#cabecalho ul {
     margin-top: 30px;
     background: #b10333;
     float: left;
-    
 }
 
 #cabecalho ul li {
@@ -54,7 +53,7 @@ ul {
     font-size: 0.9em;
     display: block;
     padding: 0.5em 1.5em;
-    line-height: 2.1em; 
+    line-height: 2.1em;
     text-decoration: none;
     color: #fff;
     background: url(../imagens/divisor.png) no-repeat left center;
@@ -62,93 +61,193 @@ ul {
 
 #cabecalho ul .primeiro a {
     background: none;
-
 }
 
 #cabecalho ul a:hover {
     color: #69001d;
 }
-    
+
 body.home #navegacao a#home,
 body.historia #navegacao a#historia,
 body.servicos #navegacao a#servicos,
 body.contato #navegacao a#contato,
-body.galeria #navegacao a#galeria
-
-{
+body.galeria #navegacao a#galeria {
     color: #fff;
     background: #de003e;
     cursor: text;
-} 
+}
 
-#conteudo{
-       margin-top: 85px;
-       background: #f5f5f5;
-} 
+#conteudo {
+    margin-top: 85px;
+    background: #f5f5f5;
+}
 
 #lateral {
     width: 180px;
     float: left;
     margin: 0 0 20px -750px;
-    background: yellow;
-  
 }
 
 #tres-colunas #primario {
-    width: 270px; 
+    width: 270px;
     float: left;
-    margin: 0 0 20px 195px;
-    background: blue;
-   
-}
+    margin: 0 0 20px 270px;
+    }
+
 #duas-colunas #primario {
-    width: 555px; 
+    width: 555px;
     float: left;
     margin: 0 0 20px 195px;
     background: blue;
-   
 }
 
 #uma-coluna #primario {
-    width: 750px; 
+    width: 750px;
     float: left;
     margin: 0 0 20px 195px;
     background: blue;
-   
 }
 
- #secundario{
+#secundario {
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
-    background: green;
    
 }
 
-div #conteudo figure{
+div #conteudo figure {
     background: #bfd7f1;
     width: 50%;
     padding: 5px 0 5px 0;
     margin: auto;
 }
-div #conteudo figcaption{
+
+div #conteudo figcaption {
     background: #fff;
     width: 50%;
     padding: 0 0 5px 0;
     margin: auto;
     text-align: justify;
-
-    
 }
 
-#cantainer-rodape{
+.caixa {
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.caixa-conteudo {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+h2{
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+}
+#lateral ul a:hover{
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+
+}
+
+/* Formatação do formulário */
+label{
+    display: block;
+    cursor: pointer; 
+}
+
+input{
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background: #fff;
+}
+
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid red;
+}
+
+/* Formatando Imagens  */
+
+img{
+    border: 2px solid #dfdfdf;
+}
+img.imagem-pricipal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+/* Formatando Cabeçalhos */
+ h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3{
+    background: #b10333;
+    color: #fff;
+}
+
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+
+}
+
+#lista-noticias li a img {
+    float: left;
+    margin: 5px;
+ }
+
+#lista-noticias li a {
+   text-decoration: none;
+}
+
+#lista-noticias li a h3{
+   font-size:0.8em;
+   padding: 0;
+   color: #3e7ab9 ;
+}
+
+#lista-noticias li a p {
+    font-size: .7em;
+  }
+  #lista-noticias li:hover {
+    background: #eee;
+    cursor: pointer;
+  }
+
+
+
+
+/* Rodape */
+#cantainer-rodape {
     background: #294c71;
     padding: 20px;
 }
 
-#rodape{
+#rodape {
     width: 750px;
     margin: 0 auto;
     color: #fff;
-
 }
