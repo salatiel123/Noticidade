@@ -14,7 +14,7 @@ body {
     width: 90%;
     margin: 0 auto;
     background: url(../imagens/detalhe-topo.png) no-repeat right top;
-    border: 1px solid red;
+  
 }
 
 .center {
@@ -78,8 +78,10 @@ body.galeria #navegacao a#galeria {
 }
 
 #conteudo {
+    
     margin-top: 85px;
     background: #f5f5f5;
+    
 }
 
 #lateral {
@@ -88,46 +90,79 @@ body.galeria #navegacao a#galeria {
     margin: 0 0 20px -750px;
 }
 
-#tres-colunas #primario {
+#index #primario{
     width: 270px;
     float: left;
     margin: 0 0 20px 270px;
+   
+    }
+
+ #index #secundario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 10px;
+  
+    }
+
+#tres-colunas #primario{
+        width: 25%;
+        float: left;
+        margin: 1em 1em 1em 7.1em;
+        
+    } 
+
+ #tres-colunas #secundario{
+        width: 25%;
+        float: left;
+        margin:1em 1em 1em 1em;
+        
+        }
+
+ #tres-colunas #terciario {
+        width:25%;
+        float: left;
+        margin: 1em 7.1em 1em 1em;
+       
     }
 
 #duas-colunas #primario {
-    width: 555px;
+    width: 44%;
     float: left;
-    margin: 0 0 20px 195px;
-    background: blue;
+    margin: 1em 2em 1em 2.3em;
+    
+}
+#duas-colunas #secundario {
+    width: 44%;
+    float: left;
+    margin:1em 2em;
+   
 }
 
 #uma-coluna #primario {
-    width: 750px;
+    width: 720px;
     float: left;
-    margin: 0 0 20px 195px;
-    background: blue;
+    margin: 0 0 20px 250px;
+   
+   
 }
-
+#uma-coluna #secundario {
+    width: 720px;
+    float: left;
+    margin: 0 0 20px 250px;
+   
+}
+ 
 #secundario {
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
    
 }
-
-div #conteudo figure {
-    background: #bfd7f1;
-    width: 50%;
-    padding: 5px 0 5px 0;
-    margin: auto;
-}
-
-div #conteudo figcaption {
-    background: #fff;
-    width: 50%;
-    padding: 0 0 5px 0;
-    margin: auto;
-    text-align: justify;
+#terciario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+   
 }
 
 .caixa {
@@ -140,7 +175,9 @@ div #conteudo figcaption {
     background: #fff;
     padding: 5px;
     margin-top: 5px;
+   
 }
+
 
 h2{
     font-size: 1em;
@@ -188,6 +225,7 @@ input.submit{
 
 img{
     border: 2px solid #dfdfdf;
+   
 }
 img.imagem-pricipal{
     width: 98%;
@@ -236,8 +274,6 @@ img.imagem-pricipal{
     background: #eee;
     cursor: pointer;
   }
-
-
 
 
 /* Rodape */
